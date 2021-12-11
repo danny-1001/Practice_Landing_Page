@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
