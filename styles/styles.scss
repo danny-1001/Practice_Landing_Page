@@ -16,13 +16,32 @@ body::before {
   height: 3rem;
   font-size: 5rem;
 }
+.navbar {
+  background-color: $primary;
+  color: $white;
 
+  .nav_logo {
+    color: aqua;
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: black;
+    font-size: 1.5rem;
+    font-family: $p_copy;
+  }
+  
+}
+.btn {
+  background-color: $secondary;
+}
+.span_shoes {
+  color: $secondary;
+}
 #instructors {
-  background-color: red;
   font-size: 2rem;
 }
 #map {
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
